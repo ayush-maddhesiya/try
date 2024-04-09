@@ -1,0 +1,277 @@
+/* --------  */
+
+/* Page 1  ----------------- */
+
+.page1 {
+    width: 100vw; 
+    min-width: 1250px; 
+    max-width: none; 
+    margin: 0 auto;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+.box1{
+    width: 20rem;
+    height: 40rem;
+    position: absolute;
+    transform: rotate(125deg) translateX(-10%) translateY(30%);
+    border-radius: 5%;
+    filter: blur(80px);
+    opacity: 0.8;
+    background-color: #9d00ffa8;
+}
+.page1 h1{
+    position: relative;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* --------  */
+
+/* Page 2  ----------------- */
+
+.page2 {
+    width: 100vw; 
+    min-width: 1250px; 
+    max-width: none; 
+    margin: 0 auto;
+    background-color: #000000;
+    margin: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.page2 img{
+    border-radius: 20px;
+    width: 30rem;
+    border: 1px solid #9d00ff13;
+    height: 18rem;
+    filter: brightness(90%) saturate(120%) contrast(90%); 
+}
+.upcomingC{
+    width: 40%;
+    margin-left: 2rem;
+}
+.upcomingC h1{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+}
+.upcomingC p{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+.upcomingC h2{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+
+/* --------  */
+
+/* Page 3  ----------------- */
+
+.page3 {
+    width: 100vw; 
+    min-width: 1250px; 
+    max-width: none; 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 0 auto;
+    background-color: #000000;
+    margin: 5rem 0rem;
+}
+.page3past{
+    display: flex;
+    justify-content: center;
+}
+.page3 h3{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-left: 2rem;
+}
+
+.page3 img{
+    border-radius: 20px;
+    width: 18rem;
+    border: 1px solid #9d00ff13;
+    height: 12rem;
+    filter: brightness(90%) saturate(120%) contrast(90%); 
+}
+
+.pastC{
+    width: 40%;
+    margin-left: 2rem;
+}
+.pastC h1{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+}
+.pastC p{
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+.pastC h2{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    .page1{
+      min-width: 350px;
+    }
+    .page1 h1{
+        font-size: 2.5rem;
+    }
+    
+    .page2{
+        min-width: 350px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .page2 img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .upcomingC{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .upcomingC h1{
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .page3 h3{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        margin-left: 2rem;
+    }
+    
+    .page3{
+        min-width: 350px;
+    }
+    .page3past{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page3 img{
+        height: 10rem;
+    }
+    
+    .pastC{
+        width: 80%;
+        margin-left: 0rem;
+    }
+    .pastC h1{
+        margin-top: 0.5rem;
+    }
+    .box1{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .page1{
+      min-width: 400px;
+    }
+    .page1 h1{
+        font-size: 2.5rem;
+    }
+    
+    .page2{
+        min-width: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .page2 img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .upcomingC{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .upcomingC h1{
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .page3 h3{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        margin-left: 2rem;
+    }
+    
+    .page3{
+        min-width: 400px;
+    }
+    .page3past{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page3 img{
+        height: 10rem;
+    }
+    
+    .pastC{
+        width: 80%;
+        margin-left: 0rem;
+    }
+    .pastC h1{
+        margin-top: 0.5rem;
+    }
+    .box1{
+        width: 10rem;
+        height: 10rem;
+    }
+}
